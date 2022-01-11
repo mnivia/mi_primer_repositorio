@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-01-11T14:44:54.479Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="gH5YUW3oMf2Lg9YVS_21" version="16.2.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-01-11T14:48:03.835Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="FPzL-ntrswI2wwxpGCDv" version="16.2.4" type="github">
   <diagram name="Page-1" id="ad52d381-51e7-2e0d-a935-2d0ddd2fd229">
     <mxGraphModel dx="2670" dy="870" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
@@ -19,6 +19,15 @@
               <mxPoint x="90" y="1040" />
               <mxPoint x="90" y="1240" />
               <mxPoint x="170" y="1240" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="r6L-rtmt2tUs_JFVUqXj-141" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="r6L-rtmt2tUs_JFVUqXj-74" target="r6L-rtmt2tUs_JFVUqXj-140">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="50" y="940" />
+              <mxPoint x="50" y="1280" />
+              <mxPoint x="-70" y="1280" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -233,6 +242,21 @@
         </mxCell>
         <mxCell id="r6L-rtmt2tUs_JFVUqXj-137" value="Utlidad" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="640" y="1290" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="r6L-rtmt2tUs_JFVUqXj-142" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="r6L-rtmt2tUs_JFVUqXj-140" target="r6L-rtmt2tUs_JFVUqXj-137">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="r6L-rtmt2tUs_JFVUqXj-140" value="Entrega" style="ellipse;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="-130" y="1360" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="r6L-rtmt2tUs_JFVUqXj-143" value="Si Natillera.RetornoMinimo &amp;gt;= Inversionista.RetornoMinimo OR Inversionista.TiempoEsperadoEntrega &amp;gt;= Natillera.TimepoEntrega" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-510" y="1180" width="310" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="r6L-rtmt2tUs_JFVUqXj-144" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="r6L-rtmt2tUs_JFVUqXj-143" target="r6L-rtmt2tUs_JFVUqXj-140">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-177.5" y="937.5" as="sourcePoint" />
+            <mxPoint x="-60.03999999999951" y="1000" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
